@@ -1,0 +1,10 @@
+alias ls='ls -a --color'
+alias lsa='ls -alh --color'
+alias gis='git status'
+alias gic='git commit -a'
+alias reload='source ~/.zshrc'
+alias bp='cat /sys/class/power_supply/BAT1/capacity'
+alias iueaConnect='python ~/projects/python/iueaBrowserBypass.py'
+alias v-record='wf-recorder --audio=alsa_output.pci-0000_03_00.6.analog-stereo.monitor \
+	-c h264_vaapi -d /dev/dri/renderD128 -f /home/romeo/videos/recording/recording-$(date +%Y%m%d_%H%M%S).mkv'
+alias wan='netdig w'

@@ -1,0 +1,12 @@
+# word characters
+WORDCHARS='*?_-.[]~=&;!#$%^{}<>'
+
+bindkey '^[[1;5D'   backward-word           # Ctrl+Left            move backword word
+bindkey '^[[1;5C'   forward-word            # Ctrl+Right           move forward
+bindkey '^[[H'      beginning-of-line       # FN+left              jump to the begiining of line
+bindkey '^[[F' 	    end-of-line	            # FN+right	           jump to the end
+
+bindkey '^H'        backward-kill-word      # ctrl+backspace       delete a word
+bindkey '^?'        backward-delete-char    # backspace 	   delete a char
+bindkey '^[^?'      backward-kill-line	    # alt+backspace 	   delete a line
+

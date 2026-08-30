@@ -1,0 +1,16 @@
+*
+!.gitignore
+!sway/
+!sway/*
+!kitty/
+!kitty/*
+!mozilla
+!mozilla/
+!mozilla/firefox
+!mozilla/firefox/4hton2hq.default-release
+!mozilla/firefox/4hton2hq.default-release/user.js
+!nvim
+!nvim/*
+!zsh
+!zsh/**
+zsh/.zsh_history
