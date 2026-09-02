@@ -75,6 +75,11 @@ output * bg ~/Pic/wallpaper/* fill
    }
 # You can also configure each device individually.
 # Read `man 5 sway-input` for more information about this section.
+#title bar
+#format client.<class> <border> <background> <text> [<indicator> [<child_border>]]
+# default : client.focused #4c7899 #285577 #ffffff #2e9ef4 #285577
+client.focused #000000 #000000 #ffffff #000000 #000000
+
 
 ### Key bindings
 #
@@ -257,5 +262,4 @@ bar {
         inactive_workspace #32323200 #32323200 #5c5c5c
     }
 }
-
 include /etc/sway/config.d/*
