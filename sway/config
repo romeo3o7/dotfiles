@@ -29,7 +29,7 @@ set $menu rofi
 #
 
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg ~/Pic/wallpaper/* fill
+output * bg ~/image/wallpaper/* fill
 #
 
 # Example configuration:
@@ -243,7 +243,7 @@ bindsym $alt+r mode "resize"
 
     # Special key to take a screenshot with grim
 
-    bindsym $mod+Print exec grim ~/Pic/screenshots/$(date +'%Y-%m-%d-%H%M%S.png'); exec notify-send -t 1000 "screenshot was taken"
+    bindsym $mod+Print exec grim ~/image/screenshots/$(date +'%Y-%m-%d-%H%M%S.png'); exec notify-send -t 1000 "screenshot was taken"
 
 #
 # Status Bar:

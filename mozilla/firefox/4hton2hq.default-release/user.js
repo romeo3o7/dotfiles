@@ -426,7 +426,7 @@ user_pref("dom.battery.enabled", false);
    OPTIONAL RFP (resistFingerprinting)
 **********************************************************************/
 // Enable RFP
-user_pref("privacy.resistFingerprinting", true); // [FF41+]
+user_pref("privacy.resistFingerprinting", false); // [FF41+]
 user_pref("privacy.resistFingerprinting.pbmode", true); // [FF114+]
 // Set RFP new window size max rounded values
 user_pref("privacy.window.maxInnerWidth", 1600);
