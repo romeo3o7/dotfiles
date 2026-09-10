@@ -414,6 +414,7 @@ user_pref("privacy.sanitize.timeSpan", 0);
 **********************************************************************/
 // Enable FPP in PB mode
 user_pref("privacy.fingerprintingProtection.pbmode", true); // [DEFAULT: true]
+user_pref("privacy.fingerprintingProtection", false); // [FF114+] [ETP FF119+]
 // Set global FPP overrides
   // user_pref("privacy.fingerprintingProtection.overrides", "");
 // Set granular FPP overrides
@@ -605,7 +606,6 @@ user_pref("network.cookie.cookieBehavior.optInPartitioning", true); // [ETP FF13
 user_pref("network.http.referer.disallowCrossSiteRelaxingDefault", true);
 user_pref("network.http.referer.disallowCrossSiteRelaxingDefault.top_navigation", true); // [FF100+]
 user_pref("privacy.bounceTrackingProtection.mode", 1); // [FF131+] [ETP FF133+]
-user_pref("privacy.fingerprintingProtection", true); // [FF114+] [ETP FF119+]
 user_pref("privacy.partition.network_state.ocsp_cache", true); // [DEFAULT: true]
 user_pref("privacy.query_stripping.enabled", true); // [FF101+]
 user_pref("privacy.trackingprotection.enabled", true);

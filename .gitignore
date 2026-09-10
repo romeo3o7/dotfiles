@@ -7,8 +7,8 @@
 !mozilla
 !mozilla/
 !mozilla/firefox
-!mozilla/firefox/4hton2hq.default-release
-!mozilla/firefox/4hton2hq.default-release/user.js
+!mozilla/firefox/jq48sp2g.default-release
+!mozilla/firefox/jq48sp2g.default-release/user.js
 !nvim
 !nvim/*
 !zsh
