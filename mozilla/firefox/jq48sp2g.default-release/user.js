@@ -296,7 +296,7 @@ user_pref("media.peerconnection.ice.default_address_only", true);
 // Disable GMP (Gecko Media Plugins)
   // user_pref("media.gmp-provider.enabled", false);
 user_pref("media.autoplay.default", 5);
-user_pref("media.autoplay.blocking_policy", 0);
+user_pref("media.autoplay.blocking_policy", 2);
 /**********************************************************************
    DOM (DOCUMENT OBJECT MODEL)
 **********************************************************************/
@@ -414,7 +414,7 @@ user_pref("privacy.sanitize.timeSpan", 0);
 **********************************************************************/
 // Enable FPP in PB mode
 user_pref("privacy.fingerprintingProtection.pbmode", true); // [DEFAULT: true]
-user_pref("privacy.fingerprintingProtection", false); // [FF114+] [ETP FF119+]
+user_pref("privacy.fingerprintingProtection", true); // [FF114+] [ETP FF119+]
 // Set global FPP overrides
   // user_pref("privacy.fingerprintingProtection.overrides", "");
 // Set granular FPP overrides
@@ -427,7 +427,7 @@ user_pref("dom.battery.enabled", false);
    OPTIONAL RFP (resistFingerprinting)
 **********************************************************************/
 // Enable RFP
-user_pref("privacy.resistFingerprinting", false); // [FF41+]
+user_pref("privacy.resistFingerprinting", true); // [FF41+]
 user_pref("privacy.resistFingerprinting.pbmode", true); // [FF114+]
 // Set RFP new window size max rounded values
 user_pref("privacy.window.maxInnerWidth", 1600);
@@ -601,7 +601,7 @@ user_pref("network.http.sendRefererHeader", 2);
 // Enable the DNT (Do Not Track) HTTP header
   // user_pref("privacy.donottrackheader.enabled", true);
 // Customize ETP settings
-user_pref("network.cookie.cookieBehavior", 5); // [DEFAULT: 5]
+user_pref("network.cookie.cookieBehavior", 1); // [DEFAULT: 5]
 user_pref("network.cookie.cookieBehavior.optInPartitioning", true); // [ETP FF132+]
 user_pref("network.http.referer.disallowCrossSiteRelaxingDefault", true);
 user_pref("network.http.referer.disallowCrossSiteRelaxingDefault.top_navigation", true); // [FF100+]

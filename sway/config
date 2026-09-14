@@ -5,7 +5,6 @@
 # Read `man 5 sway` for a complete reference.
 
 exec gammastep -m wayland -O 4800k
-exec /home/romeo/projects/c/battery-notifier/build/release/application
 
 ### Variables
 

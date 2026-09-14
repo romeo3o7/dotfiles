@@ -11,6 +11,9 @@
 !mozilla/firefox/jq48sp2g.default-release/user.js
 !nvim
 !nvim/*
+!nvim/lua
+!nvim/lua/config
+!nvim/lua/config/*
 !zsh
 !zsh/**
 zsh/.zsh_history
