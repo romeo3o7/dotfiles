@@ -4,7 +4,7 @@
 #
 # Read `man 5 sway` for a complete reference.
 
-exec gammastep -m wayland -O 4800k
+exec gammastep -m wayland -O 4900k
 
 ### Variables
 

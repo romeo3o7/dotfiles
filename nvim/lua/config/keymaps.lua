@@ -22,30 +22,33 @@ vim.keymap.set('n', '<S-Tab>', '<<')
 -- ============================================================
 -- testing
 -- ============================================================
+vim.keymap.set("n", '<A-Tab>', "gt")
+vim.keymap.set("n", '<A-S-Tab>', "gT")
+
 vim.keymap.set('n', 'gsw', ':%s/\\<\\>//g', { desc = 'Substitute word under cursor' })
 -- vim.keymap.set("n", "w!!" , ":w !sudo tee % > /dev/null")
 -- c + backspace to delete a word
 vim.keymap.set("i", "<C-BS>", "<C-w>")
 vim.keymap.set('n', '<BS>', 'dh')
--- Shift + Right moves to the last letter
-vim.keymap.set({'n', 'v'}, '<S-Right>', 'e')
--- Shift + Left moves to the first letter
-vim.keymap.set({'n', 'v'}, '<S-Left>', 'b')
 vim.keymap.set('n', '<Space>', 'i <Esc>l')
 
 -- Window navigation
-vim.keymap.set("n", "<C-Left>", "<C-w>h")
-vim.keymap.set("n", "<C-Down>", "<C-w>j")
-vim.keymap.set("n", "<C-Up>", "<C-w>k")
-vim.keymap.set("n", "<C-Right>", "<C-w>l")
+vim.keymap.set("n", "<C-h>", "<C-w>h")
+vim.keymap.set("n", "<C-j>", "<C-w>j")
+vim.keymap.set("n", "<C-k>", "<C-w>k")
+vim.keymap.set("n", "<C-l>", "<C-w>l")
 
 -- move lines
-vim.keymap.set("n", "<A-Down>", ":m+<CR>")
-vim.keymap.set("n", "<A-Up>", ":m-2<CR>")
+vim.keymap.set("n", "<A-j>", ":m+<CR>")
+vim.keymap.set("n", "<A-k>", ":m-2<CR>")
 
 -- Fast vertical scroll
-vim.keymap.set("n", "<S-Down>", "5j")
-vim.keymap.set("n", "<S-Up>", "5k")
+vim.keymap.set({'n', 'v'}, "<S-j>", "5j")
+vim.keymap.set({'n', 'v'}, "<S-k>", "5k")
+-- Shift + Right moves to the last letter
+vim.keymap.set({'n', 'v'}, '<S-l>', 'e')
+-- Shift + Left moves to the first letter
+vim.keymap.set({'n', 'v'}, '<S-h>', 'b')
 
 -- Terminal escape
 vim.keymap.set("t", "<Esc>", [[<C-\><C-n>]])
